@@ -49,4 +49,32 @@ function adivinaElNumero() {
   }
   
   adivinaElNumero();
+
+
+  // Math.pow: calcula la potencia de un número, elevando un número base a un exponente.
+
+  // Math.sqrt: calcula la raíz cuadrada de un número. Math.pow(base, exponent): Calcula base elevado a exponent.
     
+  //Math.random() devuelve un número pseudoaleatorio entre 0 (incluido) y 1 (excluido).
+//Ejemplo:
+console.log(Math.random());  // → 0.635362... (ejemplo)
+
+//            FUNCIONES DE REDONDEO
+// Math.floor(): Redondea hacia abajo al número entero más cercano.
+//Ejemplo:
+console.log(Math.floor(4.9));  // → 4
+
+
+// Math.ceil(): Redondea hacia arriba al número entero más cercano.
+//Ejemplo:
+console.log(Math.ceil(4.1));  // → 5
+
+
+//Math.round(): Redondea al número entero más cercano.
+//Ejemplo:
+console.log(Math.round(4.5));  // → 5
+
+
+//Math.abs(): Devuelve el valor absoluto (sin el signo negativo).
+//Ejemplo:
+console.log(Math.abs(-5));  // → 5
