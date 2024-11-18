@@ -42,4 +42,4 @@ let SumaProductos = productos.reduce((acumulador, producta) => {
     }
 },0) 
 
-console.log("El total de precios es: ",SumaProductos)
+console.log("El total de precios es: ",SumaProductos);
