@@ -34,12 +34,14 @@ let productosNombres = productos.filter(producto => producto.categoria === "tecn
 
 console.log("Categorias: ", productosNombres);
 
-let SumaProductos = productos.reduce((acumulador, producta) => {
-    if (producta.categoria == "tecnología") {
-        return acumulador + producta.precio;
-    }else{
-        return acumulador;
-    }
-},0) 
+// let SumaProductos = productos.reduce((acumulador, producta) => {
+//     if (producta.categoria == "tecnología") {
+//         return acumulador + producta.precio;
+//     }else{
+//         return acumulador;
+//     }
+// },0) 
+
+let SumaProductos = productos.filter(producta => producta.categoria == "tecnología") .reduce((acumulador, producta) =>acumulador + producta.precio, 0) 
 
 console.log("El total de precios es: ",SumaProductos);
