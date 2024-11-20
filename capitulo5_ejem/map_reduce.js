@@ -23,6 +23,8 @@ let productos = [
     { nombre: "Mesa", precio: 200, categoria: "hogar" }
 ];
 
+// esta es una manera  de escoger una parte de un array especifico sea el nombre el precio la edad la categoria etc.
+
 // let productosNombres = productos.map((producto) => {
 //         if (producto.categoria == "tecnología") {
 //             return producto.nombre;
@@ -33,6 +35,8 @@ let productos = [
 let productosNombres = productos.filter(producto => producto.categoria === "tecnología") .map(producto => producto.nombre);
 
 console.log("Categorias: ", productosNombres);
+
+// esta es una de las maneras para acomular una suma de arrays
 
 // let SumaProductos = productos.reduce((acumulador, producta) => {
 //     if (producta.categoria == "tecnología") {
