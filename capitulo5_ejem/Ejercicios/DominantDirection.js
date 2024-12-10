@@ -79,6 +79,7 @@ console.log(getDominantWritingDirection("Hello! مرحبا"));
 console.log(getDominantWritingDirection("שלום עולם"));    
 console.log(getDominantWritingDirection("12345")); 
 console.log(getDominantWritingDirection("ho مرحبا"));
+console.log(getDominantWritingDirection("155654658 holaaa fam مرحبا"));
 
 
 
